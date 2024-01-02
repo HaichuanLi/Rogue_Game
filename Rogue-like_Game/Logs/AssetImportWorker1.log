@@ -15,7 +15,7 @@ C:/Users/lihai/GitHub Projects/Rogue_Game/Rogue-like_Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56254
+59247
 Successfully changed project path to: C:/Users/lihai/GitHub Projects/Rogue_Game/Rogue-like_Game
 C:/Users/lihai/GitHub Projects/Rogue_Game/Rogue-like_Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/lihai/GitHub Projects/Rogue_Game/Rogue-like_Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [42492] Host "[IP] 192.168.2.172 [Port] 0 [Flags] 2 [Guid] 278384200 [EditorId] 278384200 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HRQCEI3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [36212] Host "[IP] 192.168.2.172 [Port] 0 [Flags] 2 [Guid] 2438512446 [EditorId] 2438512446 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HRQCEI3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [42492] Host "[IP] 192.168.2.172 [Port] 0 [Flags] 2 [Guid] 278384200 [EditorId] 278384200 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HRQCEI3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [36212] Host "[IP] 192.168.2.172 [Port] 0 [Flags] 2 [Guid] 2438512446 [EditorId] 2438512446 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HRQCEI3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 15.11 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 15.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010580 seconds.
-- Loaded All Assemblies, in  0.426 seconds
+Registered in 0.011857 seconds.
+- Loaded All Assemblies, in  0.410 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.328 seconds
-Domain Reload Profiling: 752ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.311 seconds
+Domain Reload Profiling: 719ms
+	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (171ms)
-		LoadAssemblies (122ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (115ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (169ms)
-			TypeCache.Refresh (167ms)
-				TypeCache.ScanAssembly (152ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (138ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (328ms)
+	FinalizeReload (311ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (257ms)
+		SetupLoadedEditorAssemblies (246ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (176ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			ProcessInitializeOnLoadAttributes (171ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,194 +115,56 @@ Domain Reload Profiling: 752ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.736 seconds
-Refreshing native plugins compatible for Editor in 4.47 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.749 seconds
+Refreshing native plugins compatible for Editor in 5.64 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.722 seconds
-Domain Reload Profiling: 1454ms
-	BeginReloadAssembly (165ms)
+- Finished resetting the current domain, in  0.699 seconds
+Domain Reload Profiling: 1444ms
+	BeginReloadAssembly (168ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (42ms)
+	RebuildCommonClasses (39ms)
 	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (454ms)
-		LoadAssemblies (354ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (477ms)
+		LoadAssemblies (380ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (196ms)
-			TypeCache.Refresh (167ms)
-				TypeCache.ScanAssembly (151ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (722ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (148ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (699ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (547ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (404ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 6.36 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4020 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (61.0 KB). Loaded Objects now: 4483.
-Memory consumption went from 144.8 MB to 144.8 MB.
-Total: 3.341900 ms (FindLiveObjects: 0.336900 ms CreateObjectMapping: 0.112800 ms MarkObjects: 2.766800 ms  DeleteObjects: 0.124700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 420768.551702 seconds.
-  path: Assets/Bandits - Pixel Art/Demo/LightBandit.prefab
-  artifactKey: Guid(60d448ff152d44a4dbdf2eed08f22945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bandits - Pixel Art/Demo/LightBandit.prefab using Guid(60d448ff152d44a4dbdf2eed08f22945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c5817ac77d1cf5d65304626d74bca9') in 0.028412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.482 seconds
-Refreshing native plugins compatible for Editor in 4.53 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.970 seconds
-Domain Reload Profiling: 1449ms
-	BeginReloadAssembly (164ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (230ms)
-		LoadAssemblies (294ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (971ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (418ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (292ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 4.93 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4009 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (35.3 KB). Loaded Objects now: 4490.
-Memory consumption went from 143.8 MB to 143.8 MB.
-Total: 4.147200 ms (FindLiveObjects: 0.353900 ms CreateObjectMapping: 0.097300 ms MarkObjects: 3.632400 ms  DeleteObjects: 0.061600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.506 seconds
-Refreshing native plugins compatible for Editor in 5.85 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.195 seconds
-Domain Reload Profiling: 1697ms
-	BeginReloadAssembly (169ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (247ms)
-		LoadAssemblies (322ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1196ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (513ms)
+		SetupLoadedEditorAssemblies (512ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
+			BeforeProcessingInitializeOnLoad (84ms)
 			ProcessInitializeOnLoadAttributes (363ms)
 			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 9.12 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.01 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (36.5 KB). Loaded Objects now: 4494.
-Memory consumption went from 146.0 MB to 145.9 MB.
-Total: 3.714300 ms (FindLiveObjects: 0.474300 ms CreateObjectMapping: 0.234900 ms MarkObjects: 2.901100 ms  DeleteObjects: 0.102000 ms)
+Unloading 4021 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (61.0 KB). Loaded Objects now: 4484.
+Memory consumption went from 144.8 MB to 144.8 MB.
+Total: 4.542600 ms (FindLiveObjects: 0.468300 ms CreateObjectMapping: 0.128700 ms MarkObjects: 3.756400 ms  DeleteObjects: 0.187700 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -318,455 +180,53 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 121.959334 seconds.
+  Time since last request: 426296.241936 seconds.
   path: Assets/Bandits - Pixel Art/Demo/LightBandit.prefab
   artifactKey: Guid(2e2183501755a214591e802f3aff33d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bandits - Pixel Art/Demo/LightBandit.prefab using Guid(2e2183501755a214591e802f3aff33d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8bcf4c002e1c15bac1d4b8ad3662e7') in 0.124629 seconds
+Start importing Assets/Bandits - Pixel Art/Demo/LightBandit.prefab using Guid(2e2183501755a214591e802f3aff33d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a96715f754ba99cfc020b6d1f134a1') in 0.105752 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 83
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.483 seconds
-Refreshing native plugins compatible for Editor in 5.37 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.513 seconds
+Refreshing native plugins compatible for Editor in 4.37 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.544 seconds
-Domain Reload Profiling: 2025ms
-	BeginReloadAssembly (158ms)
+- Finished resetting the current domain, in  1.026 seconds
+Domain Reload Profiling: 1534ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (243ms)
-		LoadAssemblies (309ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (311ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1545ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1026ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (481ms)
+		SetupLoadedEditorAssemblies (434ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (331ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 5.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4009 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (35.4 KB). Loaded Objects now: 4505.
-Memory consumption went from 152.1 MB to 152.1 MB.
-Total: 4.297100 ms (FindLiveObjects: 0.325700 ms CreateObjectMapping: 0.098600 ms MarkObjects: 3.805600 ms  DeleteObjects: 0.066000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 366.920558 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelGold_00.png
-  artifactKey: Guid(df148d5532447ed4a95df2960f0064a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelGold_00.png using Guid(df148d5532447ed4a95df2960f0064a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fde07388ff3948c4bf11ef2f1543221') in 0.092688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGreen_00.png
-  artifactKey: Guid(5b64ee36e9bc75549a750d768f63ae2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGreen_00.png using Guid(5b64ee36e9bc75549a750d768f63ae2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc41b719bc8a8d405e1714bab12aa07') in 0.027032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinRed_00.png
-  artifactKey: Guid(f76410d24de5023488c02c160b738203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinRed_00.png using Guid(f76410d24de5023488c02c160b738203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6f5e04ef15eb066aad1a8f976414b1') in 0.030215 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestRed_00.png
-  artifactKey: Guid(53fe4e529fcc9384caa9a15b0e0a7261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestRed_00.png using Guid(53fe4e529fcc9384caa9a15b0e0a7261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca4fcd0681863a81c210af29aff932a') in 0.031296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarBlue_00.png
-  artifactKey: Guid(556d7076322139c47bbff7e3dbfe8d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarBlue_00.png using Guid(556d7076322139c47bbff7e3dbfe8d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d54c62ef4dfed9e614f054315f98e2f') in 0.022897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_01.png
-  artifactKey: Guid(6d295936566099f4186cd9b8b0f0db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_01.png using Guid(6d295936566099f4186cd9b8b0f0db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c3788bcf63747885866d7a52e665fe') in 0.026716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_00.png
-  artifactKey: Guid(0be44d3b768095c4e89270e57fab542f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionPurple_00.png using Guid(0be44d3b768095c4e89270e57fab542f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31ada65033e002ec96599af256563e6') in 0.025970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_01.png
-  artifactKey: Guid(e0177ba3b268b1c4aa4e14052f375df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_01.png using Guid(e0177ba3b268b1c4aa4e14052f375df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49d2dbaacded94f1140da660af930f6') in 0.024428 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_00.png
-  artifactKey: Guid(f0e04807959967545b9e192fccc42411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_00.png using Guid(f0e04807959967545b9e192fccc42411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa63dd6ebf79c41df59ee3d0a5d5ade') in 0.022009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestGold_00.png
-  artifactKey: Guid(ec26e845be7876340a2ee4bfda730032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestGold_00.png using Guid(ec26e845be7876340a2ee4bfda730032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f707eea19c7c4b9d1690646ade624ab') in 0.026258 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinPurple_00.png
-  artifactKey: Guid(c37127e9a08198d4eb0fdc0d31e03775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinPurple_00.png using Guid(c37127e9a08198d4eb0fdc0d31e03775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24a2645d9dbb9bf9ed313082ffd8e12') in 0.024924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGold_00.png
-  artifactKey: Guid(04c464ab20730d245b581dac2a4b446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGold_00.png using Guid(04c464ab20730d245b581dac2a4b446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1aa423207358ba1c81851b194cb748d') in 0.024117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarRed_01.png
-  artifactKey: Guid(47ac6bc5bf9fb094db86be5290e1565b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarRed_01.png using Guid(47ac6bc5bf9fb094db86be5290e1565b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046d7b89fffc717ca3b594198765b2dd') in 0.023697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_00.png
-  artifactKey: Guid(e93d45f5025c570479ff2eece4ed6a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_00.png using Guid(e93d45f5025c570479ff2eece4ed6a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3147b3c4e02abeec7f0994a65e47af2') in 0.024936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartGold_00.png
-  artifactKey: Guid(053109a807490b243987cf26de3a8c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartGold_00.png using Guid(053109a807490b243987cf26de3a8c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d72d5c3366f1028a2bd689f14f41ad8') in 0.026165 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarPurple_01.png
-  artifactKey: Guid(a4462ab2a96270442bb7d271e9f4a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarPurple_01.png using Guid(a4462ab2a96270442bb7d271e9f4a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab45e0c8fb1e94851b15427f959a425c') in 0.023152 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelPurple_00.png
-  artifactKey: Guid(b4bdc0c752dbf564fa960ce37ce792e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelPurple_00.png using Guid(b4bdc0c752dbf564fa960ce37ce792e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19c3b31794877239e5888d06f40934d') in 0.024380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_02.png
-  artifactKey: Guid(8c66410cfd5f501488e86d3249953ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_02.png using Guid(8c66410cfd5f501488e86d3249953ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a99826cb74d3995974442bda85f2fd7') in 0.022914 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_00.png
-  artifactKey: Guid(e63dfe5ab6757a84a907bb7d2215f5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_00.png using Guid(e63dfe5ab6757a84a907bb7d2215f5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77c2face7bcb17a641b6cc7461fa927') in 0.022191 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_01.png
-  artifactKey: Guid(8822ae7c2efe1714b97be4830dc18055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_01.png using Guid(8822ae7c2efe1714b97be4830dc18055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b8fcae5f2975f314636b7dd468e263') in 0.025120 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGold_00.png
-  artifactKey: Guid(dd7f1c029a5f92246b55f3f7096cb54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGold_00.png using Guid(dd7f1c029a5f92246b55f3f7096cb54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96251de140eeae978264f273b22f0c6a') in 0.022652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_02.png
-  artifactKey: Guid(3b722a1dc34329147bdc4e6e959dc307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_02.png using Guid(3b722a1dc34329147bdc4e6e959dc307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e219a59d022d9822b03cb23f1d18c3d4') in 0.026727 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGreen_02.png
-  artifactKey: Guid(30496dbdeffb4c849ac3eddc39efdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGreen_02.png using Guid(30496dbdeffb4c849ac3eddc39efdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0027284753f45399ffb434fbf38cacf5') in 0.025566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 107.337604 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelGold_00.png
-  artifactKey: Guid(cfb9534e88f2cca4f998d9620eccbdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelGold_00.png using Guid(cfb9534e88f2cca4f998d9620eccbdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8f14dd1d7f947898e99f5b9e60a32e') in 0.025351 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelPurple_00.png
-  artifactKey: Guid(5bbde09ad7dbef143a4227500767d69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelPurple_00.png using Guid(5bbde09ad7dbef143a4227500767d69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4617bed4a0d726851afbf2a1a868490') in 0.032285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestBlue_00.png
-  artifactKey: Guid(998da6a559a176f408c1455ca2e250ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestBlue_00.png using Guid(998da6a559a176f408c1455ca2e250ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8063c4312157562d252ab4a194ce52') in 0.049654 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGold_00.png
-  artifactKey: Guid(5775109fdaceec14bacc8fa0025883a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGold_00.png using Guid(5775109fdaceec14bacc8fa0025883a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13bc6e6435f8945a65362512b04f2c0') in 0.031958 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGold_00.png
-  artifactKey: Guid(b7169c21225b1f04ab520fd934e0cd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGold_00.png using Guid(b7169c21225b1f04ab520fd934e0cd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77711ae9be3150c93632c8335e244046') in 0.021620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_02.png
-  artifactKey: Guid(496254eaa192f7946a180ced39f4ffe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_02.png using Guid(496254eaa192f7946a180ced39f4ffe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6934389cc662f429657dcea8492616') in 0.023225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarPurple_01.png
-  artifactKey: Guid(e3d1eaf805bf5fd49bc8281bac4848b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarPurple_01.png using Guid(e3d1eaf805bf5fd49bc8281bac4848b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80854f4c892d7b7d156010576dd124bb') in 0.026433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarPurple_00.png
-  artifactKey: Guid(f0c791a61d836134ebacb8eed2c6c122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarPurple_00.png using Guid(f0c791a61d836134ebacb8eed2c6c122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584d72ce2df861e81a72f909ba4dcb03') in 0.024752 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartRed_00.png
-  artifactKey: Guid(15cc575b0d9a36846838578bfb080819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartRed_00.png using Guid(15cc575b0d9a36846838578bfb080819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b07676abfec437be5c03856fdbaf43') in 0.022503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGold_01.png
-  artifactKey: Guid(24fd49e15c47ec54ab455b14c2430b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGold_01.png using Guid(24fd49e15c47ec54ab455b14c2430b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989901093fc09a1959556de7ee7f3f2b') in 0.024622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGreen_00.png
-  artifactKey: Guid(e0d237a6d693d244ab936f97209438d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGreen_00.png using Guid(e0d237a6d693d244ab936f97209438d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf7df7ead60bac6b4379c16dda6bed3') in 0.022553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarRed_00.png
-  artifactKey: Guid(696f52c7965f17746a01941fdbb0b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarRed_00.png using Guid(696f52c7965f17746a01941fdbb0b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee23d2c1463ea1ebac3970e379465a07') in 0.022189 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_02.png
-  artifactKey: Guid(642c9aabc6c34a44fb748967f149019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_02.png using Guid(642c9aabc6c34a44fb748967f149019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86196084a6449927ec43eb84f68e57fb') in 0.023112 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartGold_00.png
-  artifactKey: Guid(0d3e542041db03f4bb7384d4b09364c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartGold_00.png using Guid(0d3e542041db03f4bb7384d4b09364c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a638c999de02f8b244f86c293ca487') in 0.023895 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartBlue_00.png
-  artifactKey: Guid(11497421820b4c44f8fa0bd0cc98f1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_HeartBlue_00.png using Guid(11497421820b4c44f8fa0bd0cc98f1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21ef9014d6dd3cabbbbd6cee5713358') in 0.025636 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinPurple_00.png
-  artifactKey: Guid(a8b2dd49f82df4243b372efd8a053dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinPurple_00.png using Guid(a8b2dd49f82df4243b372efd8a053dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efb8e0c8652a427d3a80a88118a6fb3') in 0.025807 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_02.png
-  artifactKey: Guid(ea665887fc114a1419626aa55d7eb60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_02.png using Guid(ea665887fc114a1419626aa55d7eb60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89da59158d550dc41da75bfffbf35414') in 0.024056 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_00.png
-  artifactKey: Guid(2f605f8487435b64780f2f663cc01c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_00.png using Guid(2f605f8487435b64780f2f663cc01c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11b8a1ae3304c97425e2457976716e1') in 0.023423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_00.png
-  artifactKey: Guid(16a19be914363964790a17ef8b0bb192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionBlue_00.png using Guid(16a19be914363964790a17ef8b0bb192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3f4497bf6aa82b9079fc4154136d5c') in 0.024814 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelRed_00.png
-  artifactKey: Guid(15fd679098c39bd4890d7e0cd1d49d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_BarrelRed_00.png using Guid(15fd679098c39bd4890d7e0cd1d49d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f383098db3ba6d50ee31667daaebec9') in 0.020826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestGold_00.png
-  artifactKey: Guid(d9c66f7849c970e4c8d3447141d6d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_ChestGold_00.png using Guid(d9c66f7849c970e4c8d3447141d6d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82706b7a5bf8ae0bb1f821252f398ebc') in 0.023020 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGreen_00.png
-  artifactKey: Guid(6d66159f201fc9d4ab6edf9f5ccc0414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_JarGreen_00.png using Guid(6d66159f201fc9d4ab6edf9f5ccc0414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4312056a7cc15cef06c9c8f3eec5ad66') in 0.026065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_00.png
-  artifactKey: Guid(bfe2172ea6d8548459c72a978878c238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionGold_00.png using Guid(bfe2172ea6d8548459c72a978878c238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f01c32d08743f6abf78d6000971422') in 0.024844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_01.png
-  artifactKey: Guid(c01f7a293883d3a408c2a84b25f48f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_PotionRed_01.png using Guid(c01f7a293883d3a408c2a84b25f48f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2998824ea7e5c1afd60077e4aaf96c') in 0.027535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+		AwakeInstancesAfterBackupRestoration (15ms)

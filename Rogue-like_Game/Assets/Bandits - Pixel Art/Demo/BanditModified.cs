@@ -5,7 +5,6 @@ using UnityEngine;
 public class BanditModified : MonoBehaviour
 {
     [SerializeField] float m_speed = 6.0f;
-    [SerializeField] GameObject monster;
 
     private Animator m_animator;
     private Rigidbody2D m_body2d;
